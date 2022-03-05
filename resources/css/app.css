@@ -1,0 +1,17 @@
+/* Tell Laravel to get Tailwind imported. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styling you want grouped (and body styling) can go here. */
+@layer components {
+
+    .olssonweb-content {
+        @apply inline-block
+    }
+
+    .navbar-item {
+        @apply shadow-inner hover:bg-red-600 transition-all duration-100 block bg-red-500 h-12 justify-center
+    }
+
+}
